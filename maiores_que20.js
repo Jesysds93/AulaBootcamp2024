@@ -1,10 +1,7 @@
-// maiores_que_20.js
+const array = [9, 4, 5, 10, 2, 90, 8, 6, 33, 20, 8, 10, 4, 7, 8, 50, 87, 43];
 
-const numeros = [9, 4, 5, 10, 2, 90, 8, 6, 33];
+const maiores20 = array.filter((number) => number > 20);
+const menores20 = array.filter((number) => number <= 20);
 
-// Filtrando os números maiores que 20
-const maioresQue20 = numeros.filter((numero) => numero > 20);
-
-// Exibindo os resultados
-console.log("Números maiores que 20:");
-console.log(maioresQue20);
+console.log("Números maiores que 20:", maiores20);
+console.log("Números menores que 20:", menores20);
